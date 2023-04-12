@@ -1,0 +1,17 @@
+name: FloodgateCumulus
+main: com.github.caoli5288.floodgate.cumulus.FloodgateCumulus
+version: 1.0
+api-version: 1.13
+author: caoli5288@gmail.com
+
+commands:
+  floodgatecumulus:
+    aliases:
+      - cumulus
+      - forms
+    permission: floodgatecumulus.admin
+    usage: floodgatecumulus form <player> <form>
+
+permissions:
+  floodgatecumulus.admin:
+    default: op

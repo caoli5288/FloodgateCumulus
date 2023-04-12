@@ -1,0 +1,9 @@
+type: form
+title: Simple form
+content: Hello %player_name%
+buttons:
+  - text: Button 1
+    commands: [say hello %player_name%]
+
+  - text: Button 2
+    image: https://ok.166.net/gameyw-misc/opd/squash/20211213/164609-fgsa9kcs4u.png
